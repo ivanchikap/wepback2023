@@ -116,6 +116,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.hbs$/,
+        use: 'handlebars-loader'
+      }
     ],
   },
 };
